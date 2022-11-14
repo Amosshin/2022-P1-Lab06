@@ -56,7 +56,7 @@ g.setColor(new Color(a,b,c));
 
         // Draw Random Circles
         for(int k = 0; k<100; k++) {
-            int w = rand.nextInt(290);
+            int w = rand.nextInt(200);
 
             int x1 = rand.nextInt(390-w) + 10;
             int y1 = rand.nextInt(290-w) + 300;
@@ -89,6 +89,7 @@ Polygon square = new Polygon();
         int f = rand.nextInt(255);
         g.setColor(new Color(d,e,f));
         g.fillPolygon(square1);
+
         int d1 = rand.nextInt(255);
         int h = rand.nextInt(255);
         int i = rand.nextInt(255);
